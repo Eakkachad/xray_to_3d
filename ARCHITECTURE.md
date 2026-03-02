@@ -154,7 +154,7 @@ sequenceDiagram
         Wrapper->>Backend: เขียนผลลง output/web_cache/chest/
     end
     
-    User<<-Frontend: เห็นภาพ CT และหมุน 3D GIF ได้
+    Frontend-->>User: เห็นภาพ CT และหมุน 3D GIF ได้
 ```
 
 ---
