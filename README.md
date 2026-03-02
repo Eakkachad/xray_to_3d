@@ -65,6 +65,8 @@ Open your browser and navigate to: **http://localhost:5173**
 
 ## 🏛️ Architecture
 
+*For an in-depth explanation of the data flows, algorithms, and system structure, please refer to our [System Architecture Guide (ARCHITECTURE.md)](./ARCHITECTURE.md).*
+
 ```mermaid
 graph TB
     subgraph "Browser"
