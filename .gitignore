@@ -1,0 +1,40 @@
+# ── Python ──
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Large data files (download separately) ──
+data/*.pickle
+pretrained/*.tar
+output/
+
+# ── Environment ──
+.env
+*.log
+
+# ── Frontend ──
+web/node_modules/
+web/dist/
+
+# ── IDE ──
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# ── Logs ──
+logs/*.out
+logs/*.err
+
+# ── TIGRE build artifacts ──
+TIGRE-2.3/Python/build/
+TIGRE-2.3/Python/*.egg-info/
+
+# ── Hash encoder build ──
+src/encoder/hashencoder/build/
+src/encoder/hashencoder/*.egg-info/
