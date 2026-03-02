@@ -33,6 +33,8 @@ This repository extends the original SAX-NeRF research code with a modern 3-tier
 - [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
 
 ### 2. Clone & Setup
+*Windows Users: Please refer to the [Windows 11 Setup Guide (WSL2)](./WINDOWS_SETUP.md) for detailed instructions.*
+
 ```bash
 git clone https://github.com/Eakkachad/xray_to_3d.git
 cd xray_to_3d
